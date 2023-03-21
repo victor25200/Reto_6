@@ -24,16 +24,16 @@ import math
       print("El volumen de la figura es " + str(vf)) 
       print("El area de la figura es " + str(af))
 ```
+
 ## Punto 2
 Dado la figura de la imagen, desarrollando:
 [![image.png](https://i.postimg.cc/tJCt1Gq6/image.png)](https://postimg.cc/Pp98cc8f)
+
 - Una función matemática para calcular el área y el perímetro.
 - Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r, ay b.
-- Revise como utilizar el valor de pi usando import math y math.pi
+- Revise como utilizar el valor de piusando import math y math.pi
+
 import math
-
-
-
     def  CalcularAreaFigura(r:float,a:float, b :float ) -> float:
         AreaFigura = 2*(r**2*math.pi)+(a*b)
         return AreaFigura
