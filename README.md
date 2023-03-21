@@ -33,22 +33,6 @@ Dado la figura de la imagen, desarrollando:
 - Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r, ay b.
 - Revise como utilizar el valor de piusando import math y math.pi
 
-import math
-    def  CalcularAreaFigura(r:float,a:float, b :float ) -> float:
-        AreaFigura = 2*(r**2*math.pi)+(a*b)
-        return AreaFigura
-    def  CalcularPerimetroFigura(r:float,a:float, b :float ) -> float:
-        PerimetroFigura =2*(r*2*math.pi)+(2*a+2*b)
-        return  PerimetroFigura
-    if __name__ == "__main__":
-      r = float(input("Ingrese el radio de los circulos:"))
-      a = float(input("Ingrese el alto del rectangulo (a)"))
-      b = float(input("Ingrese el ancho del rectangulo (b):"))
-    
-      pf =  CalcularPerimetroFigura(r,a,b)
-      af=   CalcularAreaFigura(r,a,b) 
-      print("El perimetro de la figura es " + str(pf)) 
-      print("El area de la figura es " + str(af))
 	  
 ## Punto 3
 Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
